@@ -6,6 +6,7 @@ import { Home } from "../components/Home";
 import { Informations } from "../components/Informations";
 import { Contact } from "../components/Contact";
 import { NavBar } from "../components/NavBar";
+import { Footer } from "../components/Footer";
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <Header />
       {/* <NavBar /> */}
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/informations" element={<Informations />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route exact path="/energy-therapy" element={<Home />} />
+        <Route path="/energy-therapy/about" element={<About />} />
+        <Route path="/energy-therapy/informations" element={<Informations />} />
+        <Route path="/energy-therapy/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

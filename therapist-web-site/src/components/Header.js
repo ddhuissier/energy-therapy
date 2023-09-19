@@ -27,7 +27,7 @@ export const Header = () => {
           <img className="h-auto w-1/3" src={logo} alt="logo header" />
         </div>
         <ul className="text-center text-xl lg:p-20 p-3">
-          <Link to="/">
+          <Link to="/energy-therapy">
             <li
               className="my-4 py-4 border-b  border-slate-800 hover:text-brown-100 uppercase font-bold hover:rounded"
               onClick={handleClick}
@@ -35,7 +35,7 @@ export const Header = () => {
               Accueil
             </li>
           </Link>
-          <Link to="/about">
+          <Link to="/energy-therapy/about">
             <li
               className="my-4 py-4 border-b border-slate-800 hover:text-brown-100 uppercase font-bold hover:rounded"
               onClick={handleClick}
@@ -43,7 +43,7 @@ export const Header = () => {
               A propos
             </li>
           </Link>
-          <Link to="/informations">
+          <Link to="/energy-therapy/informations">
             <li
               className="my-4 py-4 border-b border-slate-800 hover:text-brown-100 uppercase font-bold hover:rounded"
               onClick={handleClick}
@@ -52,7 +52,7 @@ export const Header = () => {
             </li>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/energy-therapy/contact">
             <li
               className="my-4 py-4 border-b border-slate-800 hover:text-brown-100  uppercase font-bold hover:rounded"
               onClick={handleClick}
@@ -69,12 +69,12 @@ export const Header = () => {
       <nav>
         <div className="flex bg-brown-50 px-5 w-50 sm:w-30">
           <ul className="flex flex-1 justify-center items-center justify-items-center  hidden md:flex">
-            <Link to="/">
+            <Link to="/energy-therapy">
               <li className="hover:text-brown-100 transition 0 hover:border-brown-100 mx-2 uppercase font-bold cursor-pointer">
                 Accueil
               </li>
             </Link>
-            <Link to="/about">
+            <Link to="/energy-therapy/about">
               <li className="hover:text-brown-100 transition  hover:border-brown-100 mx-2 uppercase font-bold cursor-pointer">
                 A propos
               </li>
@@ -91,13 +91,13 @@ export const Header = () => {
                 alt="logo header"
               />
             </div>
-            <Link to="/informations">
+            <Link to="/energy-therapy/informations">
               <li className="hover:text-brown-100 transition  hover:border-brown-100 mx-2 uppercase font-bold cursor-pointer">
                 Informations
               </li>
             </Link>
 
-            <Link to="/contact">
+            <Link to="/energy-therapy/contact">
               <li className="hover:text-brown-100 transition  hover:border-brown-100 mx-2 uppercase font-bold cursor-pointer">
                 Contact
               </li>
