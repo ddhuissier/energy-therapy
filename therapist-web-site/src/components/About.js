@@ -1,6 +1,6 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-import profilImage from "../assets/images/photo-interieur-jeune-femme-blonde-faisant-exercices-yoga-pratiquant-meditation-assise-dans-pose-lotos-dans-cours-yoga_273443-5276.avif";
+import profilImage from "../assets/images/photo-interieur-jeune-femme--cours-yoga.avif";
 
 export const About = () => {
   useEffect(() => {
