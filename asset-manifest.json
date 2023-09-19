@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/energy-therapy/static/css/main.9f698c91.css",
-    "main.js": "/energy-therapy/static/js/main.92991abe.js",
+    "main.js": "/energy-therapy/static/js/main.a0a8eec7.js",
     "static/js/787.07f562ce.chunk.js": "/energy-therapy/static/js/787.07f562ce.chunk.js",
     "static/media/bg.jpg": "/energy-therapy/static/media/bg.9c877f9035c35537987c.jpg",
     "static/media/582_Harrison_St-San Francisco-CA 94107-États-Unis.png": "/energy-therapy/static/media/582_Harrison_St-San Francisco-CA 94107-États-Unis.d2ccec3dea6e963b4756.png",
@@ -14,11 +14,11 @@
     "static/media/cross.svg": "/energy-therapy/static/media/cross.8c1c76669f1ebb31d8c1eb4801e96eb5.svg",
     "static/media/menu.svg": "/energy-therapy/static/media/menu.5d95aebcefbc55b1c7f14cf7e4b754d9.svg",
     "main.9f698c91.css.map": "/energy-therapy/static/css/main.9f698c91.css.map",
-    "main.92991abe.js.map": "/energy-therapy/static/js/main.92991abe.js.map",
+    "main.a0a8eec7.js.map": "/energy-therapy/static/js/main.a0a8eec7.js.map",
     "787.07f562ce.chunk.js.map": "/energy-therapy/static/js/787.07f562ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f698c91.css",
-    "static/js/main.92991abe.js"
+    "static/js/main.a0a8eec7.js"
   ]
 }
